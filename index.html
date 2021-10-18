@@ -7,9 +7,9 @@
     <title>SASS Tute 1</title>
   </head>
   <body>
-    <div>
+    <div class="container">
       <!-- colors -->
-      <h2>Colors</h2>
+      <h2 class="mb-2">Colors</h2>
       <span class="text-primary">primary text</span> |
       <span class="text-secondary">secondary text</span> |
       <span class="text-error">error text</span> |
@@ -50,7 +50,7 @@
 
       <br /><br />
       <a href="#" class="text-primary text-hover-orange-light-1"
-        >hover over me</a
+        >hover me</a
       >
 
       <hr class="mt-4 mb-4" />
@@ -66,7 +66,7 @@
       <hr class="mt-4 mb-4" />
 
       <!-- buttons -->
-      <h2>Buttons</h2>
+      <h2 class="mb-2">Buttons</h2>
       <a href="#" class="btn">default btn</a>
       <a href="#" class="btn-primary text-white">click me</a>
       <a href="#" class="btn-secondary text-white">click me</a>
@@ -83,11 +83,10 @@
 
 
       <!-- cards -->
-      <h2>Cards</h2>
+      <h2 class="mb-2">Cards</h2>
       <div class="card">
         <h1 class="card-title">This is a card title</h1>
-        <p class="card-body">
-          Lorem ipsum dolor sit amet, consectetur
+        <p class="card-body">Lorem ipsum dolor sit amet, consectetur
           <a href="#">adipisicing</a> elit. Nostrum, laborum.
         </p>
       </div>
@@ -97,8 +96,34 @@
 
       <!-- grid system -->
 
-      <div class="responsive-test">changing colors</div>
-      
+      <h2 class="mb-2">Grid System</h2>
+      <div class="row gap-2 justify-center">
+        <div class="col-12-xs col-5-sm col-3-xl">
+            <div class="card">
+                <h3 class="card-title">Hello Davos</h3>
+                <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="col-12-xs col-5-sm col-3-xl">
+            <div class="card">
+                <h3 class="card-title">Hello Davos</h3>
+                <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="col-12-xs col-5-sm col-3-xl">
+            <div class="card">
+                <h3 class="card-title">Hello Davos</h3>
+                <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <div class="col-12-xs col-5-sm col-3-xl">
+            <div class="card">
+                <h3 class="card-title">Hello Davos</h3>
+                <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+      </div>
+
       <hr class="mt-4 mb-4" />
 
       <!-- utilities -->
